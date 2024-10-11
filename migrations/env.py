@@ -4,7 +4,7 @@ from logging.config import fileConfig
 from alembic import context
 from sqlalchemy import create_engine
 
-from my_project_uow.infrastructure.orm.models import BaseOrmModel
+from {{ cookiecutter.project_slug }}.infrastructure.orm.models import BaseOrmModel
 
 
 # this is the Alembic Config object, which provides

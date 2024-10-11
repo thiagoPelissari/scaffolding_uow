@@ -5,5 +5,6 @@
     "email": "thifael@hotmail.com",
     "github_username": "thiagoPelissari",
     "description": "This project is a Scaffolding for python, using uow(unit of working) and repository pattern.",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "has_cron": ["y", "n"]
 }

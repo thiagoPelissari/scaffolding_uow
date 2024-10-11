@@ -1,0 +1,9 @@
+{
+    "project_name": "Scaffolding uow project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author_name": "Thiago Pellizzari",
+    "email": "thifael@hotmail.com",
+    "github_username": "thiagoPelissari",
+    "description": "This project is a Scaffolding for python, using uow(unit of working) and repository pattern.",
+    "version": "0.1.0"
+}

@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "{{ cookiecutter.project_slug }}"
+version = "{{ cookiecutter.version }}"
+description = "Descrição do seu projeto"
+authors = ["{{ cookiecutter.author_name }} <{{ cookiecutter.email }}>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.35"
+alembic = "^1.13.3"
+psycopg2-binary = "^2.9.9"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
+pydantic-settings = "^2.5.2"
+redis = "^5.1.1"
+asyncpg = "^0.29.0"
+greenlet = "^3.1.1"
+cookiecutter = "^2.6.0"
+
+[tool.poetry.plugins.dotenv]
+location = "envs/dev.env"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

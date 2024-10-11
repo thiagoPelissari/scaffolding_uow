@@ -1,6 +1,7 @@
 {
     "project_name": "Scaffolding Project UOW ",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_src": "src",
     "author_name": "Thiago Pellizzari",
     "email": "thifael@hotmail.com",
     "github_username": "thiagoPelissari",
